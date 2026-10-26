@@ -1,0 +1,21 @@
+{
+  "name": "终端工具",
+  "docs": [
+    "README.md",
+    "ROADMAP.md",
+    "TECH_STACK.md",
+    "CLAUDE.md"
+  ],
+  "repository": "",
+  "changelog": "changelog.txt",
+  "build": [
+    "wails3 build"
+  ],
+  "icon": "build/appicon.png",
+  "fullname": "TermHub",
+  "outputs": [
+    "dist"
+  ],
+  "release-name": "TermHub",
+  "binary": "bin/TermHub.exe"
+}

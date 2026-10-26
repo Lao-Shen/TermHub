@@ -1,0 +1,15 @@
+{
+	"fixed": {
+		"file_version": "2.6.0"
+	},
+	"info": {
+		"0000": {
+			"Comments": "This is a comment",
+			"CompanyName": "My Company",
+			"FileDescription": "A termhub application",
+			"LegalCopyright": "© 2026, My Company",
+			"ProductName": "My Product",
+			"ProductVersion": "2.6.0"
+		}
+	}
+}

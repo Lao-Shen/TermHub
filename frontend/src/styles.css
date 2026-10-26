@@ -1,0 +1,44 @@
+/* 全局样式:字体与动画。组件样式由 MUI 主题承担。 */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 连接中状态点的呼吸动画 */
+@keyframes termhub-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+}
+
+/* 终端容器内恢复文本选择 */
+.xterm {
+  user-select: text;
+}
+
+@keyframes termhub-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

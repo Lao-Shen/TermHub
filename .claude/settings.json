@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(sed -i 's/^import \\(/import \\(\\\\n\\\\t\"bytes\"/' internal/sshsvc/transfer.go)",
+      "Bash(gofmt -w internal/sshsvc/transfer.go)",
+      "Bash(go env *)",
+      "Bash(python -c ' *)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('changelog.json','utf8'\\)\\); console.log\\('changelog.json valid'\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(cat > *)",
+      "Bash(python -c \"import json; json.load\\(open\\('changelog.json', encoding='utf-8'\\)\\); print\\('JSON OK'\\)\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('changelog.json','utf8'\\)\\); console.log\\('JSON OK'\\)\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('E:/Code/TermHub/changelog.json','utf8'\\)\\); console.log\\('JSON OK'\\)\")",
+      "Bash(grep -a -v \"^$\" /tmp/buildlog.txt)"
+    ],
+    "additionalDirectories": [
+      "\\tmp"
+    ]
+  }
+}
